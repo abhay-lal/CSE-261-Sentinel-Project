@@ -144,3 +144,15 @@ Source file: `jbb_eval_summary.json` (copy of `results/real_eval_jbb/summary.jso
 - F1 (attack): `0.8447`
 - False positive rate: `0.19`
 - False negative rate: `0.13`
+
+## References
+
+- **JailbreakBench / JBB-Behaviors:** [JailbreakBench/JBB-Behaviors](https://huggingface.co/datasets/JailbreakBench/JBB-Behaviors) (Hugging Face Datasets)
+- **Groq (Llama Guard API):** [Groq](https://groq.com)
+- **Hugging Face Transformers:** [Transformers](https://huggingface.co/docs/transformers)
+- **Hugging Face Datasets:** [Datasets](https://huggingface.co/docs/datasets)
+- Inan et al., 2023 — [Llama Guard: LLM-based Input-Output Safeguard for Human-AI Conversations](https://arxiv.org/abs/2312.06674)
+- Rebedea et al., 2023 — [NeMo Guardrails: A Toolkit for Controllable and Safe LLM Applications](https://arxiv.org/abs/2310.10501)
+- Schulhoff et al., 2023 — [Ignore This Title and HackAPrompt](https://arxiv.org/abs/2311.16119)
+- Greshake et al., 2023 — [Not what you've signed up for: Compromising Real-World LLM-Integrated Applications with Indirect Prompt Injection](https://arxiv.org/abs/2302.12173)
+- Feng et al., 2020 — [CodeBERT: A Pre-Trained Model for Programming and Natural Languages](https://aclanthology.org/2020.findings-emnlp.139/)
