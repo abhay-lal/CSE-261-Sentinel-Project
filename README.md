@@ -104,7 +104,6 @@ Run evaluation on external datasets:
 
 Notes:
 - `jbb` uses `JailbreakBench/JBB-Behaviors` (`harmful` + `benign`).
-- `deepset` uses `deepset/prompt-injections` (`train` + `test` by default).
 - Runs can take time because Llama Guard calls are rate-limited.
 
 Run evaluation on your own JSONL dataset:
