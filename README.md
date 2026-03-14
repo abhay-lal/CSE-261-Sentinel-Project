@@ -1,4 +1,4 @@
-# Sentinel Project (Runnable Demo)
+# Sentinel Project
 
 **CSE 261 course project.**
 
