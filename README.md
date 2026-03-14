@@ -95,15 +95,14 @@ benign  -> safe
 
 ## Quick metrics (benchmark mode)
 
-Run evaluation on external datasets:
+Run evaluation on JailbreakBench (JBB):
 
 ```bash
 ./.venv/bin/python evaluate.py --dataset-source jbb
-./.venv/bin/python evaluate.py --dataset-source deepset --deepset-split all
 ```
 
 Notes:
-- `jbb` uses `JailbreakBench/JBB-Behaviors` (`harmful` + `benign`).
+- Uses `JailbreakBench/JBB-Behaviors` (`harmful` + `benign`).
 - Runs can take time because Llama Guard calls are rate-limited.
 
 Run evaluation on your own JSONL dataset:
